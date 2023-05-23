@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f91147366f28929439b0468f14fce089, type: 3}
+  m_Name: NumismaticQuizConfig
+  m_EditorClassIdentifier: 
+  quizMode: 0
+  questionOrdering: 1
+  answersAmount: 4
+  questionType: 3
+  answerType: 2
+  feedbackMode: 1
+  feedbackType: 4
+  questions:
+  - itemIdx: 0
+    questionVideo: {fileID: 0}
+    questionObject: {fileID: 0}
+    questionText: Which Coin is not a 3D scan?
+    answerObjects:
+    - {fileID: 6291382381917338777, guid: 9874f162390a2ce4495ca956893accea, type: 3}
+    - {fileID: 7490711594617475617, guid: 872b23569a6039640ad78567b6817449, type: 3}
+    - {fileID: 4430336841747389160, guid: c6f9288f733509c41afff324ec1a0481, type: 3}
+    - {fileID: 0}
+    answerTexts:
+    - 
+    - 
+    - 
+    - 
+    correctAnswers: 01000000
+    feedbackVideo: {fileID: 0}
+    feedbackObject: {fileID: 6291382381917338777, guid: e5c95370ae82c0241acd1f77c59db2a0, type: 3}
+    feedbackText: This coin is just an image on a cylinder
+  - itemIdx: 1
+    questionVideo: {fileID: 32900000, guid: 019efde519c9d7b45b9cf0f24b3f5a8a, type: 3}
+    questionObject: {fileID: 0}
+    questionText: 
+    answerObjects:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    answerTexts:
+    - Obverse
+    - Reverse
+    - Inverse
+    - Verse
+    correctAnswers: 00000001
+    feedbackVideo: {fileID: 32900000, guid: 4e3f57819bf3f504596955f51b904b00, type: 3}
+    feedbackObject: {fileID: 0}
+    feedbackText: 
+  - itemIdx: 2
+    questionVideo: {fileID: 32900000, guid: a4707c4aedc656f438aa86cf3865b568, type: 3}
+    questionObject: {fileID: 0}
+    questionText: 
+    answerObjects:
+    - {fileID: 759349925081641617, guid: 89666c17af8449d48a14f8bca8979fc4, type: 3}
+    - {fileID: 759349925081641617, guid: 91d0a3292f5d81648ac3423e15f67713, type: 3}
+    - {fileID: 759349925081641617, guid: 353be80d88e55384fb5efeeb9f552ada, type: 3}
+    - {fileID: 0}
+    answerTexts:
+    - 
+    - 
+    - 
+    - 
+    correctAnswers: 01000000
+    feedbackVideo: {fileID: 0}
+    feedbackObject: {fileID: 0}
+    feedbackText: The <color="red">red</color> coin made no sounds.
+  - itemIdx: 3
+    questionVideo: {fileID: 0}
+    questionObject: {fileID: 1424550477299632, guid: 97f4e9a5784a74548b91418bce6823bf, type: 3}
+    questionText: Which boulder does the catapult shoot?
+    answerObjects:
+    - {fileID: 1871804746403935137, guid: b0f7cb340e6734a429d3ac1b7dd23d85, type: 3}
+    - {fileID: 1871804746403935137, guid: 71d6ce0ad1eb6694d9934540424553ac, type: 3}
+    - {fileID: 1871804746403935137, guid: 65276fc1c223cf941b0778d1d601570f, type: 3}
+    - {fileID: 1871804746403935137, guid: b662ae62847b48e448dd1d6829e489c6, type: 3}
+    answerTexts:
+    - 
+    - 
+    - 
+    - 
+    correctAnswers: 01000000
+    feedbackVideo: {fileID: 0}
+    feedbackObject: {fileID: 1871804746403935137, guid: 06cff3143be3bdd479cb5dd23368830d, type: 3}
+    feedbackText: 'The correct boulder looks like this:'
+  - itemIdx: 4
+    questionVideo: {fileID: 0}
+    questionObject: {fileID: 5340803601672658532, guid: d908d2487e807274f8f3207872dfa843, type: 3}
+    questionText: Which empire used this coin die?
+    answerObjects:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    answerTexts:
+    - Mughal
+    - Roman
+    - Greek
+    - Mongolian
+    correctAnswers: 01000000
+    feedbackVideo: {fileID: 0}
+    feedbackObject: {fileID: 5340803601672658532, guid: d908d2487e807274f8f3207872dfa843, type: 3}
+    feedbackText: Mughal
