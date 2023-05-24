@@ -25,8 +25,8 @@ MonoBehaviour:
     questionObject: {fileID: 0}
     questionText: Which Coin is not a 3D scan?
     answerObjects:
-    - {fileID: 6291382381917338777, guid: 9874f162390a2ce4495ca956893accea, type: 3}
     - {fileID: 7490711594617475617, guid: 872b23569a6039640ad78567b6817449, type: 3}
+    - {fileID: 6291382381917338777, guid: 9874f162390a2ce4495ca956893accea, type: 3}
     - {fileID: 4430336841747389160, guid: c6f9288f733509c41afff324ec1a0481, type: 3}
     - {fileID: 0}
     answerTexts:
@@ -34,7 +34,7 @@ MonoBehaviour:
     - 
     - 
     - 
-    correctAnswers: 01000000
+    correctAnswers: 00010000
     feedbackVideo: {fileID: 0}
     feedbackObject: {fileID: 6291382381917338777, guid: e5c95370ae82c0241acd1f77c59db2a0, type: 3}
     feedbackText: This coin is just an image on a cylinder
@@ -48,10 +48,10 @@ MonoBehaviour:
     - {fileID: 0}
     - {fileID: 0}
     answerTexts:
-    - Obverse
+    - Verse
     - Reverse
     - Inverse
-    - Verse
+    - Obverse
     correctAnswers: 00000001
     feedbackVideo: {fileID: 32900000, guid: 4e3f57819bf3f504596955f51b904b00, type: 3}
     feedbackObject: {fileID: 0}
@@ -61,16 +61,16 @@ MonoBehaviour:
     questionObject: {fileID: 0}
     questionText: 
     answerObjects:
-    - {fileID: 759349925081641617, guid: 89666c17af8449d48a14f8bca8979fc4, type: 3}
-    - {fileID: 759349925081641617, guid: 91d0a3292f5d81648ac3423e15f67713, type: 3}
     - {fileID: 759349925081641617, guid: 353be80d88e55384fb5efeeb9f552ada, type: 3}
+    - {fileID: 759349925081641617, guid: 91d0a3292f5d81648ac3423e15f67713, type: 3}
+    - {fileID: 759349925081641617, guid: 89666c17af8449d48a14f8bca8979fc4, type: 3}
     - {fileID: 0}
     answerTexts:
     - 
     - 
     - 
     - 
-    correctAnswers: 01000000
+    correctAnswers: 00000100
     feedbackVideo: {fileID: 0}
     feedbackObject: {fileID: 0}
     feedbackText: The <color="red">red</color> coin made no sounds.
@@ -102,11 +102,11 @@ MonoBehaviour:
     - {fileID: 0}
     - {fileID: 0}
     answerTexts:
-    - Mughal
     - Roman
+    - Mughal
     - Greek
     - Mongolian
-    correctAnswers: 01000000
+    correctAnswers: 00010000
     feedbackVideo: {fileID: 0}
     feedbackObject: {fileID: 5340803601672658532, guid: d908d2487e807274f8f3207872dfa843, type: 3}
     feedbackText: Mughal
