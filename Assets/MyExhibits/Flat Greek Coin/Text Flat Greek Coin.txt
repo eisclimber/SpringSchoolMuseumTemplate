@@ -1,0 +1,2 @@
+This suspicious coin looks deceptively real, but it is just an image projected on a flat cylinder. It cannot recreate the surface or reflections of a real coin.
+3D Scans on the other hand do recreate the surface. This adds depth to the model, making it a great opportunity for virtually handling ancient coins without deterioration or a risk of destruction.
