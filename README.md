@@ -1,4 +1,4 @@
-# Spring School Museum Template
+# VR Museum Template
 
 This repository serves as base for a workshop for creating virtual reality (VR) exhibitions for people with little experience with Unity or game development using [ExPresS XR (**Ex**perimentation and **Pres**entation for **S**cience with Open**XR**)](https://github.com/eisclimber/ExPresS-XR).
 It was originally developed, together with a numismatic-themed VR Exhibition, as an internal workshop day for the CIVIS Days 2023 at the Eberhard Karls University Tübingen.
