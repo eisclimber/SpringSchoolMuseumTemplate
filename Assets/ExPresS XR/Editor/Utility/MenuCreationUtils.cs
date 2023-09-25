@@ -121,6 +121,14 @@ namespace ExPresSXR.Editor
             InstantiatePrefabAtContextTransform(menuCommand, "Interaction/Object Check Socket Interactor");
         }
 
+
+        [MenuItem("GameObject/ExPresS XR/Interaction/Grab Trigger Interactable")]
+        public static void CreateXRGrabTriggerInteractable(MenuCommand menuCommand)
+        {
+            InstantiatePrefabAtContextTransform(menuCommand, "Interaction/Grab Trigger Interactable");
+        }
+
+
         [MenuItem("GameObject/ExPresS XR/Interaction/Exit Game Interactable")]
         public static void CreateXRExitGameInteractable(MenuCommand menuCommand)
         {
@@ -328,6 +336,12 @@ namespace ExPresSXR.Editor
 
 
         // Misc Menus
+        [MenuItem("GameObject/ExPresS XR/UI/Main Menu UI")]
+        static void CreateMainMenuUI(MenuCommand menuCommand)
+        {
+            InstantiatePrefabAtContextTransform(menuCommand, "UI/Main Menu UI");
+        }
+
         [MenuItem("GameObject/ExPresS XR/UI/Misc/After Quiz Dialog")]
         static void CreateCakeAfterQuizMenu(MenuCommand menuCommand)
         {

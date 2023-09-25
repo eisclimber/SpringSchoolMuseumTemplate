@@ -50,6 +50,10 @@ namespace ExPresSXR.Rig
             set => _maxFadeDuration = value;
         }
 
+        [Tooltip("Physics Layers used to detect collisions.")]
+        [SerializeField]
+        private LayerMask _layerMask = 1; // Layer: Default
+
         [Space]
 
 
@@ -59,8 +63,6 @@ namespace ExPresSXR.Rig
         [Tooltip("Will be invoked once when a collision with wall ends.")]
         public UnityEvent OnCollisionEnded;
 
-
-        private LayerMask _layerMask;
         private Collider[] _objs = new Collider[10];
         private Vector3 _prevHeadPos;
         private bool _colliding;
@@ -90,7 +92,6 @@ namespace ExPresSXR.Rig
             // Prevent Collision during setup
             _cooldownCoroutine = StartCoroutine(CollisionCooldown());
 
-            _layerMask = LayerMask.NameToLayer("Everything");
             _colliding = false;
             _prevHeadPos = transform.position;
 
@@ -145,7 +146,8 @@ namespace ExPresSXR.Rig
 
             for (int i = 0; i < size; i++)
             {
-                if (!_objs[i].CompareTag("Player") && !IsColliderHeldByInteractable(_objs[i]))
+                // Neither the player or held by the player
+                if (!_objs[i].CompareTag("Player") && !IsColliderHeldByPlayer(_objs[i]))
                 {
                     hits++;
                 }
@@ -205,25 +207,15 @@ namespace ExPresSXR.Rig
         }
 
 
-        private bool IsColliderHeldByInteractable(Collider collider)
+        private bool IsColliderHeldByPlayer(Collider collider)
         {
-            if (collider == null 
-                || !collider.gameObject.TryGetComponent(out XRBaseInteractable interactable)
-                || !interactable.isSelected)
-            {
-                // No collider, go is not an interactable or is one but is not selected
-                return false;
-            }
-            
-            foreach (IXRSelectInteractor interactor in interactable.interactorsSelecting)
-            {
-                // Check if it is selected by an DirectInteractor
-                if (interactor is XRDirectInteractor)
-                {
-                    return true;
-                }
-            }
-            return false;
+            // The collider must exist and be part of a Rigidbody attached (required by interactable)
+            // The interactable must exist, be selected and held primarily be the player
+            return collider != null 
+                && collider.attachedRigidbody != null
+                && collider.attachedRigidbody.TryGetComponent(out XRGrabInteractable interactable)
+                && interactable.isSelected
+                && interactable.firstInteractorSelecting.transform.CompareTag("Player");
         }
 
         private IEnumerator CollisionCooldown()
