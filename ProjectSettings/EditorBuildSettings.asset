@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/ExPresS XR/Scenes/General Export Scene.unity
-    guid: aba3dcdbbc0e65e429bb32cab7a733b9
+    path: Assets/_CompletedExhibit/MyVRExhibition.unity
+    guid: 2aed15043569499448ea255b86cf8d28
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 4340d25f9eee7054b9b5069a374b2eba, type: 2}
     WebXR.Settings: {fileID: 11400000, guid: 3137875602c21bb41ab6a7aee5c329ee, type: 2}
