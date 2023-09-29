@@ -784,7 +784,7 @@ MonoBehaviour:
   m_Move: {fileID: -8198699208435500284, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   _teleportationEnabled: 1
   _teleportCancelEnabled: 0
-  _chooseTeleportForwardEnabled: 1
+  _chooseTeleportForwardEnabled: 0
   _smoothMoveEnabled: 0
   _smoothTurnEnabled: 0
   _snapTurnEnabled: 1
@@ -793,9 +793,10 @@ MonoBehaviour:
   _pokeInteractionEnabled: 0
   _rayInteractionEnabled: 0
   _rayAnchorControlEnabled: 0
-  _uiRayInteractionEnabled: 0
+  _uiRayInteractionEnabled: 1
   _uiPokeInteractionEnabled: 0
   _showPokeReticle: 0
+  _scaleGrabbedObjects: 0
   _handModelMode: 1
   _handModelCollisions: 1
   _afterGrabWaitDuration: 0.3
@@ -1231,7 +1232,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-13306
+  m_Name: pb_Mesh40582
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2880,7 +2881,7 @@ MonoBehaviour:
   _infoAudioClip: {fileID: 0}
   _infoVideoClip: {fileID: 0}
   _usePhysicalInfoButton: 1
-  _toggleInfo: 0
+  _toggleInfo: 1
   _showInfoDuration: 30
   _socket: {fileID: 588288394}
   _labelTextGo: {fileID: 1350622187}
@@ -3581,6 +3582,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _collisionSound: {fileID: 8300000, guid: 604047faa118c144ea1a1510ccf3b1a9, type: 3}
   _audioSource: {fileID: 238889452}
+  _requireAudioCompletion: 0
   _initialSilenceDuration: 0.5
 --- !u!54 &238889454
 Rigidbody:
@@ -3756,7 +3758,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh27876
+  m_Name: pb_Mesh40922
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -5807,7 +5809,7 @@ MonoBehaviour:
   m_AutoDeselect: 0
   m_TimeToAutoDeselect: 1
   m_EnableUIInteraction: 0
-  m_AllowAnchorControl: 1
+  m_AllowAnchorControl: 0
   m_UseForceGrab: 0
   m_RotateSpeed: 2
   m_TranslateSpeed: 0.1
@@ -11112,20 +11114,19 @@ MonoBehaviour:
   _quizUndergoing: 0
   _feedbackDuration: 3
   _startOnAwake: 0
-  _showResultTextPrefix: 0
   _showQuizCompletedText: 0
   _canRestartFromAfterQuizDialog: 0
-  _buttons:
-  - {fileID: 4543215076788660971}
-  - {fileID: 4543215078242257856}
-  - {fileID: 4543215077819186672}
-  - {fileID: 4543215077396632758}
-  _mcConfirmButton: {fileID: 0}
-  _displayText: {fileID: 846378886}
-  _displayAnchor: {fileID: 1608573232}
-  _displayPlayer: {fileID: 1740788589}
-  _displayVideoImage: {fileID: 756389679}
-  _afterQuizMenu: {fileID: 623715973}
+  buttons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  mcConfirmButton: {fileID: 0}
+  displayText: {fileID: 0}
+  displayAnchor: {fileID: 0}
+  displayPlayer: {fileID: 0}
+  displayVideoImage: {fileID: 0}
+  afterQuizMenu: {fileID: 0}
   OnQuizStarted:
     m_PersistentCalls:
       m_Calls: []
@@ -11950,7 +11951,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-30166
+  m_Name: pb_Mesh39570
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -13369,7 +13370,7 @@ MonoBehaviour:
   _infoAudioClip: {fileID: 0}
   _infoVideoClip: {fileID: 0}
   _usePhysicalInfoButton: 1
-  _toggleInfo: 0
+  _toggleInfo: 1
   _showInfoDuration: 30
   _socket: {fileID: 816228715}
   _labelTextGo: {fileID: 260131368}
@@ -13712,6 +13713,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _collisionSound: {fileID: 8300000, guid: 604047faa118c144ea1a1510ccf3b1a9, type: 3}
   _audioSource: {fileID: 737540262}
+  _requireAudioCompletion: 0
   _initialSilenceDuration: 0.5
 --- !u!54 &737540264
 Rigidbody:
@@ -14054,7 +14056,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh28290
+  m_Name: pb_Mesh41370
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -15219,7 +15221,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh26906
+  m_Name: pb_Mesh39848
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -16611,7 +16613,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh27468
+  m_Name: pb_Mesh40482
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -16775,7 +16777,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh28062
+  m_Name: pb_Mesh41130
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -17216,7 +17218,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh27786
+  m_Name: pb_Mesh40824
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -17537,7 +17539,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-8712
+  m_Name: pb_Mesh40996
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -21013,7 +21015,7 @@ MonoBehaviour:
   _infoAudioClip: {fileID: 0}
   _infoVideoClip: {fileID: 0}
   _usePhysicalInfoButton: 1
-  _toggleInfo: 0
+  _toggleInfo: 1
   _showInfoDuration: 30
   _socket: {fileID: 1789109770}
   _labelTextGo: {fileID: 1304044318}
@@ -21854,7 +21856,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-7202
+  m_Name: pb_Mesh40392
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -22335,7 +22337,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh28084
+  m_Name: pb_Mesh41152
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -22784,7 +22786,7 @@ MonoBehaviour:
   m_Move: {fileID: 6972639530819350904, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   _teleportationEnabled: 1
   _teleportCancelEnabled: 0
-  _chooseTeleportForwardEnabled: 1
+  _chooseTeleportForwardEnabled: 0
   _smoothMoveEnabled: 0
   _smoothTurnEnabled: 0
   _snapTurnEnabled: 1
@@ -22793,9 +22795,10 @@ MonoBehaviour:
   _pokeInteractionEnabled: 0
   _rayInteractionEnabled: 0
   _rayAnchorControlEnabled: 0
-  _uiRayInteractionEnabled: 0
+  _uiRayInteractionEnabled: 1
   _uiPokeInteractionEnabled: 0
   _showPokeReticle: 0
+  _scaleGrabbedObjects: 0
   _handModelMode: 1
   _handModelCollisions: 1
   _afterGrabWaitDuration: 0.3
@@ -26071,6 +26074,9 @@ MonoBehaviour:
   _pushbackAnchor: {fileID: 824100500}
   _colliderSize: 0.25
   _maxFadeDuration: 0.5
+  _layerMask:
+    serializedVersion: 2
+    m_Bits: 1
   OnCollisionStarted:
     m_PersistentCalls:
       m_Calls: []
@@ -27429,7 +27435,7 @@ MonoBehaviour:
   m_HoverTimeToSelect: 0.5
   m_AutoDeselect: 0
   m_TimeToAutoDeselect: 1
-  m_EnableUIInteraction: 0
+  m_EnableUIInteraction: 1
   m_AllowAnchorControl: 0
   m_UseForceGrab: 0
   m_RotateSpeed: 180
@@ -28940,7 +28946,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh26960
+  m_Name: pb_Mesh39902
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -30269,7 +30275,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh26940
+  m_Name: pb_Mesh39882
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -30516,7 +30522,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh27492
+  m_Name: pb_Mesh40508
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -31072,7 +31078,7 @@ MonoBehaviour:
   m_HoverTimeToSelect: 0.5
   m_AutoDeselect: 0
   m_TimeToAutoDeselect: 1
-  m_EnableUIInteraction: 0
+  m_EnableUIInteraction: 1
   m_AllowAnchorControl: 0
   m_UseForceGrab: 0
   m_RotateSpeed: 180
@@ -36289,7 +36295,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh27480
+  m_Name: pb_Mesh40494
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -37007,7 +37013,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh26844
+  m_Name: pb_Mesh39786
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -37371,7 +37377,7 @@ MonoBehaviour:
   _infoAudioClip: {fileID: 0}
   _infoVideoClip: {fileID: 0}
   _usePhysicalInfoButton: 1
-  _toggleInfo: 0
+  _toggleInfo: 1
   _showInfoDuration: 30
   _socket: {fileID: 1551356811}
   _labelTextGo: {fileID: 1433239499}
@@ -38257,7 +38263,7 @@ MonoBehaviour:
   m_AutoDeselect: 0
   m_TimeToAutoDeselect: 1
   m_EnableUIInteraction: 0
-  m_AllowAnchorControl: 1
+  m_AllowAnchorControl: 0
   m_UseForceGrab: 0
   m_RotateSpeed: 2
   m_TranslateSpeed: 0.1
